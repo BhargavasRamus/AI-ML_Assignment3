@@ -47,5 +47,5 @@ for i in range(len(Test)):
 		  prediction = 1
 	  else:
 		  prediction = -1
-    print(Test[i],est)
+    print(Test[i],prediction)
 
