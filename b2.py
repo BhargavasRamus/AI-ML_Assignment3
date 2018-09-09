@@ -21,7 +21,7 @@ def Differ_Sigma(x):
 def equation(x,weight,bias):
 	return (np.matmul(weight.T,x.reshape(len(x),1))+bias)
 	
-#for xor
+#for or
 In=np.array([[0,0],[0,1],[1,0],[1,1]])
 Out=np.array([[0],[1],[1],[1]])
 X=[]
